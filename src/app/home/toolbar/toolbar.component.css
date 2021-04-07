@@ -1,0 +1,20 @@
+.container {
+    height: 60px;
+    width: 100%;
+}
+.toolbar {
+    display: flex;
+}
+.toolbar-left {
+    width: 25%;
+}
+.toolbar-center {
+    width: 50%;
+}
+.toolbar-right {
+    width: 25%;
+}
+mat-icon {
+    font-size: 30px;
+}
+

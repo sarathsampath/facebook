@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="toolbar">
+        <div class="toolbar-left">
+           
+        </div>
+        <div class="toolbar-center">
+            <mat-tab-group>
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon (click)="navigate('home')">home</mat-icon>
+                  </ng-template>
+                </mat-tab>
+              
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon (click)="navigate('watch')">ondemand_video</mat-icon>
+                  </ng-template>
+                </mat-tab>
+              
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon (click)="navigate('marketplace')">storefront</mat-icon>
+                  </ng-template>
+                </mat-tab>
+
+                <mat-tab>
+                    <ng-template mat-tab-label>
+                      <mat-icon (click)="navigate('groups')">groups</mat-icon>
+                    </ng-template>
+                  </mat-tab>
+
+                  <mat-tab>
+                    <ng-template mat-tab-label>
+                      <mat-icon (click)="navigate('gaming')">sports_esports</mat-icon>
+                    </ng-template>
+                  </mat-tab>
+              </mat-tab-group>
+        </div>
+        <div class="toolbar-right">
+           
+        </div>
+    </div>
+</div>
