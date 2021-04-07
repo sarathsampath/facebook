@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  leftBarDatas: any;
+  contactDatas: any;
+  constructor(
+    private HS: HomeService
+  ) { }
 
   ngOnInit(): void {
+    this.leftBarDatas = this.HS.leftBarDatas;
+    this.contactDatas = this.HS.contactDatas;
   }
 
 }

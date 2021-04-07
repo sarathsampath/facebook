@@ -10,7 +10,8 @@ import { AppRoutingModule } from '../app-routing.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
-
+import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -27,7 +28,9 @@ import {MatIconModule} from '@angular/material/icon';
     CommonModule,
     AppRoutingModule,
     MatTabsModule,
-    MatIconModule
+    MatIconModule,
+    MatListModule,
+    MatCardModule
   ]
 })
 export class HomeModule { }

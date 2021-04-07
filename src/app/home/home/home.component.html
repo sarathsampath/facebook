@@ -1,1 +1,43 @@
-<p>home works!</p>
+<div class="homeContainer">
+    <div class="leftBar">
+        <mat-selection-list [multiple]="false" >
+            <mat-list-option *ngFor="let list of leftBarDatas" class="leftBarItem">
+                <div class="leftBarAlign">
+                    <img src = {{list.icon}} width="34px" height="34px">
+                    <b>{{list.item}}</b>
+                </div>
+            </mat-list-option>
+          </mat-selection-list>
+
+    </div>
+    <div class="centerContent">
+        <div class="bodyContent">
+            <div class="stories">
+                <mat-card class="storyCard">
+                    <mat-card-content>
+                            <mat-icon>add_circle</mat-icon>
+                            <p>Create Story</p>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="storyCard">
+                    <mat-card-header>
+                            <img mat-card-avatar src="https://material.angular.io/assets/img/examples/shiba1.jpg">
+                    </mat-card-header>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+    <div class="rightBar">
+        <div class="contacts">
+            <mat-selection-list #shoes [multiple]="false" >
+                <h2 class="rightHead">Contact</h2>
+                <mat-list-option *ngFor="let list of contactDatas" class="leftBarItem">
+                    <div class="leftBarAlign">
+                        <img src = {{list.img}} width="34px" height="34px">
+                        <b>{{list.name}}</b>
+                    </div>
+                </mat-list-option>
+              </mat-selection-list>
+        </div>
+    </div>
+</div>

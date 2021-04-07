@@ -1,0 +1,54 @@
+.homeContainer {
+    display: flex;
+    background-color: #eff2f5;
+    height: 100%;
+}
+.leftBar {
+    width: 20%;
+}
+.leftBarItem {
+    padding: 5px 0px 5px 0px!important; 
+}
+.leftBarAlign {
+    display: inline-block;
+}
+.leftBarAlign b {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 400;
+}
+
+
+.centerContent {
+    width: 100%;
+}
+.bodyContent {
+    width: 70%;
+    margin: auto;
+}
+
+.stories {
+    display: flex;
+}
+.storyCard {
+    height: 150px;
+    width: 80px ;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.storyCard mat-icon {
+    color: blue;
+    font-size: 40px;
+}
+
+.rightBar {
+    width: 30%;
+    overflow-y: auto;
+}
+
+.rightHead{
+    color: grey;
+}
+
