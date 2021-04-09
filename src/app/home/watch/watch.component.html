@@ -65,7 +65,29 @@
                    
                 </div>
                 <div>
-                    <span class="material-icons"> more_horiz</span>
+                    <button  mat-button [matMenuTriggerFor]="menu"><mat-icon class="icons"> more_horiz</mat-icon></button>
+                            <mat-menu class="popupMenu " #menu="matMenu" xPosition="before">
+                                <div  class="popupButton">
+                                        <div class="popupButton Datas">
+                                            <button mat-button><mat-icon  class="icons">bookmark</mat-icon> <span>Save Video</span> </button> 
+                                        </div>
+                                        <div class="popupButton Datas">
+                                            <button mat-button><mat-icon class="icons"  >comment</mat-icon> <span>Copy Link</span> </button>
+                                        </div>
+                                        <div class="popupButton Datas">
+                                            <button *ngIf=datas.Follow mat-button><mat-icon  class="icons">library_add</mat-icon> <span>Follow {{datas.Name}}</span> </button>
+                                        </div>
+                                        
+                                        <div class="line"></div>
+                                        <div class="popupButton Datas">
+                                            <button mat-button><mat-icon class="icons" >hide_source</mat-icon> <span>Hide Video</span> </button>
+                                        </div>
+                                       <div class="popupButton Datas"> 
+                                             <button mat-button><mat-icon class="icons" >report</mat-icon> <span>Report Video</span> </button>
+                                       </div>
+                                     
+                                </div>  
+                            </mat-menu>
                 </div>
             </div> 
             <div class="caption">
