@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./watch.component.css']
 })
 export class WatchComponent implements OnInit {
-  
+  select='Home';
   like1=true;
   like2=false;
   data=[{
