@@ -1,0 +1,133 @@
+
+  .loginheader {
+    background-color: #f0f2f5;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+    text-align: left;
+  }
+  .loginheaderleft{
+      height: 10px;
+      margin-right: auto;
+      margin-bottom: 350px;
+      font-size: 10px;
+      width: 350px;
+      text-align: left;
+      margin-left: 250px;
+  }
+  .loginheaderleft h1{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 35px;
+  }
+  .loginheaderright{
+    height: 56px;
+    margin-left: auto;
+
+  }
+  .email{
+      background-color:white;
+      border: 1px solid #dddfe2;
+      border-radius: 5px;
+      font-family: inherit;
+      display: flex;
+      gap: 10px;
+      height: 50px;
+      width:100%;
+      font-size: 20px;
+      margin-bottom: 20px;
+}
+  .password{
+    background-color:white;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-family: inherit;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    width:100%;
+    font-size: 20px;
+  }
+    
+  .buttonlogin{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    height: 56px;
+    padding: 16px;
+    width: 400px;
+    color:white;
+    margin-top:20px;
+    margin-bottom: 10px;
+  }
+  .createaccount{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    padding: 4px;
+  }
+  .card{
+      width:400px;
+      background-color: white;
+      height: 350px;
+      padding: 10px;
+      border-radius: 10px;
+      margin: auto;
+      margin-bottom: 250px;
+      margin-left: 100px;
+
+    }
+  .tagline{
+      margin-top: 80px;
+      margin-left: 22px;
+      font-size: 15px;
+}
+footer{
+    width:80%;
+    margin:auto;
+
+}
+.footer1{
+    margin-top:10px;
+    border-bottom:1px solid grey;
+    margin-top:40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer1 a{
+    color:grey;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.footer2{
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer2 a{
+    color: grey;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.forgetbutton{
+    text-align: center;
+}
+.forgetbutton a{
+    text-decoration: none;
+    color:#1877f2;
+}
